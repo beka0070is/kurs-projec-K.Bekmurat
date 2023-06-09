@@ -1,0 +1,1277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#medford {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medford-header {
+    background: linear-gradient(180deg, #0185FF 0%, rgba(0, 224, 255, 0.28) 70.83%, rgba(0, 224, 255, 0) 100%);
+    padding: 10px 0;
+}
+
+.medford {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vector {
+    display: flex;
+    align-items: center;
+}
+
+.vector img {
+    margin: 0 30px 0px 60px;
+    cursor: pointer;
+}
+
+.vector h1 {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+    margin: 40px 20px 0 0;
+}
+
+.medford-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medford-main a {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.rabota {
+    margin: 0 48px;
+}
+
+.com {
+    margin: 0 48px;
+}
+
+.medford-main .btn {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    color: #F5F5F5;
+    width: 157px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    background: transparent;
+    margin: 0 54px;
+    cursor: pointer;
+}
+
+.medford-textphone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.medford-textphone h1 {
+    position: absolute;
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    left: 400px;
+    top: 220px;
+}
+
+.medford-textphone img {
+    position: relative;
+    left: 390px;
+    z-index: 1;
+}
+
+.btntext {
+    left: 100px;
+}
+
+.video-marketing h1 {
+    position: absolute;
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    left: 500px;
+    top: 1050px;
+}
+
+#supersila {
+    display: flex;
+    align-items: center;
+}
+
+.supersila {
+    margin: 100px 0;
+}
+
+.supersila h1 {
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #008BF5;
+}
+
+.super {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.star {
+    box-sizing: border-box;
+    width: 247px;
+    height: 338px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E1E2E4;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.staricon {
+    width: 106px;
+    height: 106px;
+    left: 71px;
+    top: 54px;
+    background: linear-gradient(180deg, #008BF5 0%, #00E0FF 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.star p {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.settings {
+    box-sizing: border-box;
+    width: 247px;
+    height: 338px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E1E2E4;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.settingsicon {
+    width: 106px;
+    height: 106px;
+    left: 71px;
+    top: 54px;
+    background: linear-gradient(180deg, #008BF5 0%, #00E0FF 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.settings p {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.person {
+    box-sizing: border-box;
+    width: 247px;
+    height: 338px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E1E2E4;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.personicon {
+    width: 106px;
+    height: 106px;
+    left: 71px;
+    top: 54px;
+    background: linear-gradient(180deg, #008BF5 0%, #00E0FF 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.person p {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.camera {
+    box-sizing: border-box;
+    width: 247px;
+    height: 338px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E1E2E4;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cameraicon {
+    width: 106px;
+    height: 106px;
+    left: 71px;
+    top: 54px;
+    background: linear-gradient(180deg, #008BF5 0%, #00E0FF 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.camera p {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+.portfolio-btn button {
+    width: 423.48px;
+    height: 74px;
+    background: #008BF5;
+    border-radius: 50px;
+    border: none;
+    margin: 150px 520px;
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.portfolio-btn h1 {
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #008BF5;
+}
+
+.portfolio-btn p {
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.portfolio-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-video-one {
+    width: 420px;
+    height: 330px;
+    background-image: url(../img/imgone.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.portfolio-video-one .icons {
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    color: #00E0FF;
+    margin: 50px 0 0 0;
+    cursor: pointer;
+}
+
+.portfolio-video-one a {
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 20px 0 0 0;
+}
+
+.portfolio-video-one .tire {
+    width: 50px;
+    border: 1px solid #FFFFFF;
+    margin: 20px 0 0 0;
+}
+
+.portfolio-video-two {
+    width: 420px;
+    height: 330px;
+    background-image: url(../img/imgtwo.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.portfolio-video-two .icons {
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    color: #00E0FF;
+    margin: 50px 0 0 0;
+    cursor: pointer;
+}
+
+.portfolio-video-two a {
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 20px 0 0 0;
+}
+
+.portfolio-video-two .tire {
+    width: 50px;
+    border: 1px solid #FFFFFF;
+    margin: 20px 0 0 0;
+}
+
+.portfolio-video-three {
+    width: 420px;
+    height: 330px;
+    background-image: url(../img/imgthree.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.portfolio-video-three .icons {
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    color: #00E0FF;
+    margin: 50px 0 0 0;
+    cursor: pointer;
+}
+
+.portfolio-video-three a {
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 20px 0 0 0;
+}
+
+.portfolio-video-three .tire {
+    width: 50px;
+    border: 1px solid #FFFFFF;
+    margin: 20px 0 0 0;
+}
+
+.studio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.our-studio {
+    position: absolute;
+    width: 427.86px;
+    height: 254px;
+    background: #008BF5;
+    border-radius: 20px;
+    margin: 0 0 220px 700px;
+    padding: 35px;
+}
+
+.our-studio h1 {
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.our-studio p {
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.robota {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.robota button {
+    width: 684px;
+    height: 80px;
+    background: #0094FF;
+    border-radius: 100px;
+    border: none;
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.produk-one{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.produk-two{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.produk {
+    box-sizing: border-box;
+    width: 411px;
+    height: 310px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 139, 245, 0.7);
+    border-radius: 30px;
+}
+
+.produk-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+.produk-text h1 {
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, #0094FF, #0094FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: flex;
+    align-items: center;
+}
+
+.produk-text h1 span {
+    font-size: 70px;
+    margin: 0 10px;
+}
+
+.produk-text p {
+    width: 200px;
+    height: 100px;
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #24272C;
+}
+
+.produk-text img {
+    position: absolute;
+    height: 150px;
+    width: 130px;
+    border-radius: 0px;
+    margin: 130px 0 0 230px;
+}
+
+.raketa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.raketa-text h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #0094FF;
+
+}
+
+.raketa-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+}
+
+.raketa-img .img1{
+    margin: 160px 0 0 90px;
+}
+.raketa-img .img2{
+    margin: 0 0 150px 40px;
+}
+.raketa-img .img3{
+    margin: 90px 0 0 0;
+}
+.raketa-img .img4{
+    margin: 0 0 300px 0;
+}
+.raketa-img .img5{
+    margin: 10px 40px 0 0;
+}
+
+.raketa-p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+}
+
+.raketa-p h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+
+.raketa-p p{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.raketa-p .textp-one{
+    width: 415px;
+    height: 415px;
+    background: #0094FF;
+    border-radius: 30px;
+    padding: 30px 30px;
+    margin: 0 0 170px 0;
+}
+
+.textp-one h2{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0094FF;
+}
+
+
+.raketa-p .textp-two{
+    width: 416px;
+    height: 510px;
+    background: #05C3DD;
+    border-radius: 30px;
+    padding: 30px 30px;
+    margin: 0 0 80px 0;
+}
+
+.textp-two h2{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #05C3DD;
+}
+
+.raketa-p .textp-three{
+    width: 415px;
+    height: 590px;
+    background: #FF6231;
+    border-radius: 30px;
+    padding: 30px 30px;
+}
+
+.textp-three h2{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF6231;
+}
+
+.video{
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video button{
+    width: 684px;
+    height: 80px;
+    background: #0094FF;
+    border-radius: 100px;
+    border: none;
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.video-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-cart .icons{ 
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    color: #F5F5F5;
+    background: #008BF5;
+    border: none;
+    border-radius: 100%;
+    margin: 0 0 0 1270px;
+    cursor: pointer;
+    }
+
+.video-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 624px;
+    height: 366px;
+    left: 74px;
+    top: 9118.43px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+.video-one-text h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 118.5%;
+    background: linear-gradient(0deg, #0094FF, #0094FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.video-one-text p{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;  
+    margin: 50px 0;  
+}
+
+.video-one img{
+    margin: 0 0 50px 0;
+}
+
+.video-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 624px;
+    height: 366px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+.video-two-text h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 118.5%;
+    background: linear-gradient(0deg, #0094FF, #0094FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.video-two-text p{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;  
+    margin: 50px 0;  
+}
+
+.video-two img{
+    margin: 0 0 0 0;
+}
+
+.video2-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.video2-cart .icons{ 
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    color: #F5F5F5;
+    background: #008BF5;
+    border: none;
+    border-radius: 100%;
+    margin: 0 0 0 1270px;
+    cursor: pointer;
+    }
+
+.video2-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 624px;
+    height: 366px;
+    left: 74px;
+    top: 9118.43px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+.video2-three-text h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 118.5%;
+    background: linear-gradient(0deg, #0094FF, #0094FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.video2-three-text p{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;  
+    margin: 50px 0;  
+}
+
+.video2-three img{
+    margin: 0 0 50px 0;
+}
+
+.video2-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 624px;
+    height: 366px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+.video2-four-text h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 118.5%;
+    background: linear-gradient(0deg, #0094FF, #0094FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.video2-four-text p{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;  
+    margin: 50px 0;  
+}
+
+.video2-four img{
+    margin: 0 0 0 0;
+}
+
+.services{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #0094FF;
+    margin: 100px 0;
+}
+
+.services-video{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0  100px 0;
+}
+
+.video-clip{
+    width: 279.38px;
+    height: 448px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px #0094FF;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.video-clip .icons{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #0094FF;
+    color: #000000;
+}
+
+.video-clip h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #0094FF;
+    margin: 30px 0;
+
+}
+
+
+.video-clip-address{ 
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #A7B4BE;
+    text-align: center;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.video-clip-address button{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 124%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+    width: 201px;
+    height: 47px;
+    left: 39px;
+    top: 368px;
+    
+    background: linear-gradient(180deg, #008BF5 0%, #00D7F5 100%);
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.video-clip2{
+    padding: 30px 0;
+    width: 279.38px;
+    height: 448px;
+    left: 0px;
+    top: 0px;
+    
+    background: #0094FF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-clip2 h1{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 106%;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    margin: 20px 0;
+    }
+.video-clip2 p{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124%;
+    text-align: center;
+    
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.video-clip2 p b{
+    font-size: 29px;
+}
+
+.video-clip2 button{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 124%;
+    color: #0094FF;
+    width: 201.49px;
+    height: 47px;
+    left: 38.46px;
+    top: 368px;
+    
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 40px;
+    border: none;
+    margin: 30px 0;
+}
+
+.team{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 106%;
+    text-align: center;
+    text-transform: uppercase;
+    
+    background: linear-gradient(180deg, #00D7F5 0%, #008BF5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.team-img{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.team-img img{
+    border-radius: 10%;
+}
+
+.team-img text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-img .text h1{
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 118.5%;
+
+    background: linear-gradient(0deg, #008BF5, #008BF5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 40px 0;
+}
+
+.team-img .text p{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    
+    color: #24272C;
+}
+
+.clients{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 106%;
+    background: linear-gradient(180deg, #00E0FF 0%, #008BF5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.clients-img {
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer{ 
+    width: 1440px;
+    height: 380px;
+    
+    background: linear-gradient(180deg, #008BF5 0%, #038EF3 43.23%, #06D5F1 95.83%);
+    margin: 0 0 200px 0;
+}
+
+.media{
+    padding: 50px 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+   
+}
+
+.media .vector {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    }
+
+.media .vector img {
+    margin: 0 30px 0px 60px;
+    cursor: pointer;
+}
+
+.media .vector h1 {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #F5F5F5;
+    margin: 40px 20px 0 0;
+}
+
+.media p{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 124%;
+    
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.contact a{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124%;
+    color: #FFFFFF;
+}
+
+.contact-btn input{
+    width: 270px;
+    height: 47px;
+    
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 40px;
+    border: none;
+}
+
+.contact-btn button{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 124%;
+    color: #FFFFFF;
+
+    width: 163px;
+    height: 47px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    background: transparent;
+    cursor: pointer;
+    
+}
+
+.line{
+    margin: 60px 50px 20px 50px;
+    width: 1300px;
+    height: 0px;
+    
+    border: 1px solid #FFFFFF;
+}
+
+.footer-main{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-main .mains a{
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+   
+     
+    color: #FFFFFF;
+}
+
+input {outline: none;}    
+
